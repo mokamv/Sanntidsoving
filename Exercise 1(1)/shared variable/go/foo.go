@@ -27,13 +27,13 @@ func decrementing(c_dec chan bool) {
 func server(c_inc chan bool, c_dec chan bool, c_done chan bool) {
     for {
         select {
-        case _, ok := <-c_inc:
+        case _, ok := <-c_inc: // Hvis det er en verdi i c_inc
             if ok {
                 i += 1
             } else {
                 c_inc = nil
             }
-        case _, ok := <-c_dec:
+        case _, ok := <-c_dec: // Hvis det er en verdi i c_dec
             if ok {
                 i -= 1
             } else {

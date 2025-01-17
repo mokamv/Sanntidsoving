@@ -1,0 +1,1 @@
+/Users/monavahedi/Desktop/Kybernetikk\ og\ Robotikk/6.\ Semester/Sanntidsprogrammering/Exercise\ 1(1)/other\ languages/Rust/target/debug/foo: /Users/monavahedi/Desktop/Kybernetikk\ og\ Robotikk/6.\ Semester/Sanntidsprogrammering/Exercise\ 1(1)/other\ languages/Rust/src/main.rs
